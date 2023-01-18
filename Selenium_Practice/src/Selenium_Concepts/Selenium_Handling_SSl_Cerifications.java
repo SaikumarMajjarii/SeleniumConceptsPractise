@@ -1,3 +1,5 @@
+package Selenium_Concepts;
+
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
