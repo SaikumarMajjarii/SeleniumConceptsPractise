@@ -46,6 +46,24 @@ public class PyramidPatternsPractice {
 			System.out.println("  ");
 	}
 
+	int T1 = 3;
+	for(int i=1;i<=4;i++)
+	{
+		
+		
+		for(int j=1;j<=i;j++)
+		{
+			L++;
+			//System.out.print(L*T + "");
+			System.out.print(L + "");
+			System.out.print(" ");
+		
+		}
+		
+
+			System.out.println("  ");
+	}
+
 }
 
 }
