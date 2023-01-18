@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Car Department">
+
+	<parameter name="Name" value="Saikumar Majjari" />
+	<test thread-count="5" name="SUV Car">
+
+
+		<parameter name="School" value="Nehru" />
+		<parameter name="STD" value="Seven" />
+		<parameter name="RollNo" value="40" />
+
+
+		<classes>
+			<class name="New_TestNG_Project.ParameterTestthroughTestNGXML" />
+		</classes>
+
+	</test>
+
+	<test thread-count="5" name="Sports Car">
+		<parameter name="School" value="Swami">
+		</parameter>
+
+
+		<classes>
+
+			<class name="New_TestNG_Project.ParameterTestNG_Test2" />
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->

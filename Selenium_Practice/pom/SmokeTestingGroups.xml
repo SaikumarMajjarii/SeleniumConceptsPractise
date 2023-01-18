@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel  = "tests" thread-count="5" name="Car Department">
+
+	
+	<test   thread-count="5" name="Sports Car">
+		<groups>
+			<run>
+			
+				<include name ="SelectedCar"/>
+				<exclude name="SelectedCar"/>
+			</run>
+
+
+		</groups>
+
+		<classes>
+			<class name="New_TestNG_Project.testNG_SUVCar" />
+			<class name="New_TestNG_Project.testNG_PremiumCars" />
+			<class name="New_TestNG_Project.testNG_sportsCar" />
+			
+
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
