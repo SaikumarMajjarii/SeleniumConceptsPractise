@@ -112,3 +112,22 @@ public class E2E_Selenium_DropDowns {
 	}
 
 }
+//
+//if(Driver.findElement(By.id("Div1")).getAttribute("style").contains("0.5"))
+//{
+//	
+//	
+//		System.out.println("the Date Picker is Disabled");
+//	
+//	
+//		Assert.assertTrue(true);
+//}
+//
+//else
+//	
+//{
+//	Assert.assertFalse(true);
+//}
+//
+//
+//Driver.quit();
