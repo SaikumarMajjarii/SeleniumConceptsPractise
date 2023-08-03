@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="New_TestNG_Project.testNG_DataProvider">
+      <class name="New_TestNG_Project.ParameterTestthroughTestNGXML">
         <methods>
-          <include name="setData2"/>
+          <include name="rollSTD"/>
+          <include name="scName"/>
+          <include name="stName"/>
         </methods>
-      </class> <!-- New_TestNG_Project.testNG_DataProvider -->
+      </class> <!-- New_TestNG_Project.ParameterTestthroughTestNGXML -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
